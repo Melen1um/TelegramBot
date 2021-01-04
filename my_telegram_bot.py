@@ -3,6 +3,7 @@ import telebot
 import os
 import random
 import urllib.request as urllib2
+import sys
 bot = telebot.TeleBot('1489033608:AAETh3fXu6GoCKnTDUhpx61OrH2kX0d_jMQ')
 @bot.message_handler(commands=['help'])
 def handle_text(message):
